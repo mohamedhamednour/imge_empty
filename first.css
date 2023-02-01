@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#app {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+  }
+  
+  .userCard {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+
+  }
+  
+  .avatar {
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+  
+  }
+
+  .divimg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    color: azure;
+    justify-content: center;
+    font-size: 25px;
+  }
+
+ 
